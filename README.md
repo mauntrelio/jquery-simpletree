@@ -8,23 +8,24 @@ http://krijnhoetmer.nl/stuff/javascript/list-treeview-menu/
 
 Adapted as a jQuery plugin by Maurizio Manetti.
 
+## Usage
+
+...
+
 ## Alternatives:
 
 There are plenty
 
+- https://plugins.jquery.com/?s=treeview
 - https://github.com/caerphoto/simpletreeview
 - https://github.com/mar10/fancytree
 - http://mbraak.github.io/jqTree/
-- https://plugins.jquery.com/?s=treeview
 - https://github.com/phoenixinobi/simpletree
 - https://github.com/innoq/simpletree
 
-
 ## TODO
 
-- complete package json file and publish plugin to npm
 - provide methods to collapse all and expand all
 - provide method to "destroy" treeview
-- provide more options (e.g.: start collapsed / start expanded)
 - more examples
 - themes
