@@ -46,6 +46,13 @@
 			$('#secondTree').simpletree('expand');
 		});
 
+		$('#maketree_two_add').on('click',function() {
+			$('#secondTree').append('<li>Added element</li>');
+			$('#secondTree').simpletree('repaint');
+		});
+
+
+
 	});
 
 	</script>
@@ -157,6 +164,7 @@
 		<button id="maketree_two">Make a Tree with second list (start OPEN)</button>
 		<button id="maketree_two_collapse">Collapse all</button>
 		<button id="maketree_two_expand">Expand all</button>
+		<button id="maketree_two_add">Add an element at the end</button>
 		<ul id="secondTree" class="tree">
 			<li><b>SECOND LIST</b></li>
 			<li><a href="#">Element 2</a>

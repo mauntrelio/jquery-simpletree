@@ -98,7 +98,13 @@ Adapted as a jQuery plugin by Maurizio Manetti
     this.element.find('li.' + settings.classOpen).removeClass(settings.classOpen).addClass(settings.classCollapsed);
   };
   
-  SimpleTree.prototype.destroy = function(){};
+  SimpleTree.prototype.destroy = function(){
+    console.warn("Destroy TO de implemented");
+  };
+  
+  SimpleTree.prototype.repaint = function(){
+    console.warn("Repaint TO de implemented");
+  };
 
   // evaluate method call or creation (similar to jQuery UI widget factory)
   // prevent against multiple instantiations

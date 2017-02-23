@@ -27,7 +27,6 @@ There are plenty
 
 ## TODO:
 
-- provide methods to collapse all and expand all
 - provide method to "repaint" treeview (if element are added / removed from the list)
 - provide method to "destroy" treeview
 - minified version
