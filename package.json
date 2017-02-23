@@ -26,14 +26,14 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/mauntrelio/simpletree/blob/master/LICENSE.txt"
+      "url": "https://github.com/mauntrelio/jquery-simpletree/blob/master/LICENSE.txt"
     }
   ],
-  "bugs": "https://github.com/mauntrelio/simpletree/issues",
-  "homepage": "https://github.com/mauntrelio/simpletree",
-  "docs": "https://github.com/mauntrelio/simpletree",
-  "download": "https://github.com/mauntrelio/simpletree/zipball/master",
-  "demo": "https://mauntrelio.github.com/demos/simpletree/",
+  "bugs": "https://github.com/mauntrelio/jquery-simpletree/issues",
+  "homepage": "https://github.com/mauntrelio/jquery-simpletree",
+  "docs": "https://github.com/mauntrelio/jquery-simpletree",
+  "download": "https://github.com/mauntrelio/jquery-simpletree/zipball/master",
+  "demo": "https://mauntrelio.github.com/demos/jquery-simpletree/",
   "dependencies": {
       "jquery": ">=1.12"
   }
