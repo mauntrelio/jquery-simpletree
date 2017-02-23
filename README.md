@@ -10,7 +10,9 @@ Adapted as a jQuery plugin by Maurizio Manetti.
 
 ## Usage
 
-...
+... TBD ...
+
+Examples at https://mauntrelio.github.io/demos/simpletree/
 
 ## Alternatives:
 
