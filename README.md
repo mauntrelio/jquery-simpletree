@@ -8,7 +8,7 @@ http://krijnhoetmer.nl/stuff/javascript/list-treeview-menu/
 
 Adapted as a jQuery plugin by Maurizio Manetti.
 
-## Usage
+## Usage:
 
 ... TBD ...
 
@@ -25,9 +25,12 @@ There are plenty
 - https://github.com/phoenixinobi/simpletree
 - https://github.com/innoq/simpletree
 
-## TODO
+## TODO:
 
 - provide methods to collapse all and expand all
+- provide method to "repaint" treeview (if element are added / removed from the list)
 - provide method to "destroy" treeview
+- minified version
 - more examples
-- themes
+- themes (different icons / look)
+- provide callbacks on expand / close?
