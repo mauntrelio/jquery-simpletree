@@ -14,13 +14,13 @@
   "version": "0.0.1",
   "author": {
     "name": "Maurizio Manetti",
-    "url": "http://mauriziomanetti.it"
+    "url": "https://mauntrelio.github.io"
   },
   "maintainers": [
     {
       "name": "Maurizio Manetti",
       "email": "maurizio@imanetti.net",
-      "url": "http://mauriziomanetti.it"
+      "url": "https://mauntrelio.github.io"
     }
   ],
   "licenses": [
@@ -33,7 +33,7 @@
   "homepage": "https://github.com/mauntrelio/jquery-simpletree",
   "docs": "https://github.com/mauntrelio/jquery-simpletree",
   "download": "https://github.com/mauntrelio/jquery-simpletree/zipball/master",
-  "demo": "https://mauntrelio.github.com/demos/jquery-simpletree/",
+  "demo": "https://mauntrelio.github.io/demos/jquery-simpletree/",
   "dependencies": {
       "jquery": ">=1.12"
   }
