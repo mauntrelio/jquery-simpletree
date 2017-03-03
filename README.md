@@ -8,6 +8,8 @@ http://krijnhoetmer.nl/stuff/javascript/list-treeview-menu/
 
 Adapted as a jQuery plugin by Maurizio Manetti.
 
+Live demo and examples: https://mauntrelio.github.io/demos/simpletree/
+
 ## Installation:
 
 To be done.
@@ -63,7 +65,7 @@ If you need to dynamically add or remove elements to your list when the treeview
 	$('#firstTree').append('<li>Added item</li>');
 	$('#firstTree').simpleTree('repaint');
 
-Live examples: https://mauntrelio.github.io/demos/simpletree/
+Live demo and examples: https://mauntrelio.github.io/demos/simpletree/
 
 ## Alternatives:
 
