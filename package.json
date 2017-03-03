@@ -35,7 +35,7 @@
   "download": "https://github.com/mauntrelio/jquery-simpletree/zipball/master",
   "demo": "https://mauntrelio.github.io/demos/jquery-simpletree/",
   "dependencies": {
-      "jquery": ">=1.12"
+      "jquery": ">=1.9"
   }
 }
 
