@@ -1,4 +1,4 @@
-# Simple Tree jQuery
+# jQuery simpleTree
 
 Yet another jQuery treeview plugin to display nested ULs as nice trees.
 
@@ -18,6 +18,7 @@ To be done.
 
 Include files from the dist folder:
 
+```html
 	<!-- Simple Tree core CSS file -->
 	<link rel="stylesheet" href="css/simpletree.css">
 
@@ -26,26 +27,33 @@ Include files from the dist folder:
 
 	<!-- Simple Tree core JS file -->
 	<script src="js/jquery.simpletree.js"></script>
+```
 
 Treeview initialization should be executed after document ready, for example:
 
+```javascript
 	$(document).ready(function() {
 	  $('.tree').simpleTree({startCollapsed: false});
 	});
+```
 
 The option `startCollapsed` is true by default.
 
 Treeview can be applied programmatically:
 
+```javascript
 	$('#maketree').on('click',function(){
 		$('#firstTree').simpleTree();
 	});	
+```
 
 Treeview can be removed:
 
+```javascript
 	$('#destroytree').on('click',function(){
 		$('#firstTree').simpleTree('destroy');
 	});	
+```
 
 Please note that simpleTree is stateful: expanded and collapsed status of the nodes will be kept if you destroy and then re-apply treeview again. This is based on simpleTree specific classes (`.st-open` and `.st-collapsed`) defined in the CSS. 
 
@@ -54,16 +62,22 @@ This is also useful if you want to have a treeview partially opened by default: 
 Treeview provides three basic methods in addition to `destroy`. 
 Use the `expand` method to fully open a treeview:
 
+```javascript
 	$('#firstTree').simpleTree('expand');
+```
 
 Use the `collapse` method to completely close a treeview:
 
+```javascript
 	$('#firstTree').simpleTree('collapse');
+```
 
 If you need to dynamically add or remove elements to your list when the treeview is applied and you want to keep consistency, just call the `repaint` method immediately after adding or removing the element:
 
+```javascript
 	$('#firstTree').append('<li>Added item</li>');
 	$('#firstTree').simpleTree('repaint');
+```
 
 Live demo and examples: https://mauntrelio.github.io/demos/simpletree/
 
