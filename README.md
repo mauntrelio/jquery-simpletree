@@ -12,7 +12,7 @@ Live demo and examples: https://mauntrelio.github.io/demos/simpletree/
 
 ## Installation:
 
-To be done.
+To be documented. You can figure out...
 
 ## Usage:
 
@@ -26,7 +26,7 @@ Include files from the dist folder:
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 	<!-- Simple Tree core JS file -->
-	<script src="js/jquery.simpletree.js"></script>
+	<script src="js/jquery.simpletree.min.js"></script>
 ```
 
 Treeview initialization should be executed after document ready, for example:
@@ -94,6 +94,5 @@ There are plenties
 
 ## TODO:
 
-- installation
-- minified version
+- document installation
 - themes (different icons / look)
