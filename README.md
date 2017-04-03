@@ -19,22 +19,22 @@ To be documented. You can figure out...
 Include files from the dist folder:
 
 ```html
-	<!-- Simple Tree core CSS file -->
-	<link rel="stylesheet" href="css/simpletree.css">
+<!-- Simple Tree core CSS file -->
+<link rel="stylesheet" href="css/simpletree.css">
 
-	<!-- jQuery 1.9+ or Zepto.js 1.0+ -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- jQuery 1.9+ or Zepto.js 1.0+ -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-	<!-- Simple Tree core JS file -->
-	<script src="js/jquery.simpletree.min.js"></script>
+<!-- Simple Tree core JS file -->
+<script src="js/jquery.simpletree.min.js"></script>
 ```
 
 Treeview initialization should be executed after document ready, for example:
 
 ```javascript
-	$(document).ready(function() {
-	  $('.tree').simpleTree({startCollapsed: false});
-	});
+$(document).ready(function() {
+  $('.tree').simpleTree({startCollapsed: false});
+});
 ```
 
 The option `startCollapsed` is true by default.
@@ -42,17 +42,17 @@ The option `startCollapsed` is true by default.
 Treeview can be applied programmatically:
 
 ```javascript
-	$('#maketree').on('click',function(){
-		$('#firstTree').simpleTree();
-	});	
+$('#maketree').on('click',function(){
+	$('#firstTree').simpleTree();
+});	
 ```
 
 Treeview can be removed:
 
 ```javascript
-	$('#destroytree').on('click',function(){
-		$('#firstTree').simpleTree('destroy');
-	});	
+$('#destroytree').on('click',function(){
+	$('#firstTree').simpleTree('destroy');
+});	
 ```
 
 Please note that simpleTree is stateful: expanded and collapsed status of the nodes will be kept if you destroy and then re-apply treeview again. This is based on simpleTree specific classes (`.st-open` and `.st-collapsed`) defined in the CSS. 
@@ -63,20 +63,20 @@ Treeview provides three basic methods in addition to `destroy`.
 Use the `expand` method to fully open a treeview:
 
 ```javascript
-	$('#firstTree').simpleTree('expand');
+$('#firstTree').simpleTree('expand');
 ```
 
 Use the `collapse` method to completely close a treeview:
 
 ```javascript
-	$('#firstTree').simpleTree('collapse');
+$('#firstTree').simpleTree('collapse');
 ```
 
 If you need to dynamically add or remove elements to your list when the treeview is applied and you want to keep consistency, just call the `repaint` method immediately after adding or removing the element:
 
 ```javascript
-	$('#firstTree').append('<li>Added item</li>');
-	$('#firstTree').simpleTree('repaint');
+$('#firstTree').append('<li>Added item</li>');
+$('#firstTree').simpleTree('repaint');
 ```
 
 Live demo and examples: https://mauntrelio.github.io/demos/simpletree/
